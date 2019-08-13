@@ -1,0 +1,186 @@
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.deps.json
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.runtimeconfig.json
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.runtimeconfig.dev.json
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.dll
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.pdb
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.Views.dll
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.Views.pdb
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.csprojAssemblyReference.cache
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.csproj.CoreCompileInputs.cache
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorAssemblyInfo.cache
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorAssemblyInfo.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.AssemblyInfoInputs.cache
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.AssemblyInfo.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.TagHelpers.input.cache
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.TagHelpers.output.cache
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorCoreGenerate.cache
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorTargetAssemblyInfo.cache
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorTargetAssemblyInfo.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.Views.pdb
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.dll
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.pdb
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.csproj.CopyComplete
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Entities.dll
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Repositories.dll
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Entities.pdb
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Repositories.pdb
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.deps.json
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.runtimeconfig.json
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.runtimeconfig.dev.json
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.dll
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.pdb
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.Views.dll
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.Views.pdb
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Entities.dll
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Repositories.dll
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Entities.pdb
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Repositories.pdb
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.csprojAssemblyReference.cache
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.csproj.CoreCompileInputs.cache
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorAssemblyInfo.cache
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorAssemblyInfo.cs
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.AssemblyInfoInputs.cache
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.AssemblyInfo.cs
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.TagHelpers.input.cache
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.TagHelpers.output.cache
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorCoreGenerate.cache
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Header.g.cshtml.cs
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorTargetAssemblyInfo.cache
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorTargetAssemblyInfo.cs
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.Views.pdb
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.csproj.CopyComplete
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.dll
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.pdb
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Commons.dll
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.DTO.dll
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Service.dll
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Commons.pdb
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.DTO.pdb
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Service.pdb
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Index.g.cshtml.cs
+F:\Dot Net Project\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.csprojAssemblyReference.cache
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.csproj.CoreCompileInputs.cache
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorAssemblyInfo.cache
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorAssemblyInfo.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.AssemblyInfoInputs.cache
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.AssemblyInfo.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.dll
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.pdb
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Commons.dll
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.DTO.dll
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Entities.dll
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Repositories.dll
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Service.dll
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Commons.pdb
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.DTO.pdb
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Entities.pdb
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Repositories.pdb
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Service.pdb
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.TagHelpers.input.cache
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.TagHelpers.output.cache
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorCoreGenerate.cache
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Index.g.cshtml.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Header.g.cshtml.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorTargetAssemblyInfo.cache
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorTargetAssemblyInfo.cs
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.Views.pdb
+E:\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.csproj.CopyComplete
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.deps.json
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.runtimeconfig.json
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.runtimeconfig.dev.json
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.dll
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.pdb
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.Views.dll
+E:\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.Views.pdb
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Commons.dll
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.DTO.dll
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Service.dll
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Commons.pdb
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.DTO.pdb
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Service.pdb
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Index.g.cshtml.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_NavHeader.g.cshtml.cs
+E:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SubModule.g.cshtml.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.deps.json
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.runtimeconfig.json
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.runtimeconfig.dev.json
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.dll
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.pdb
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.Views.dll
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Web.Views.pdb
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Commons.dll
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.DTO.dll
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Entities.dll
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Repositories.dll
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Service.dll
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Commons.pdb
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.DTO.pdb
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Entities.pdb
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Repositories.pdb
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\bin\Debug\netcoreapp2.1\MLS.Service.pdb
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.csprojAssemblyReference.cache
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.csproj.CoreCompileInputs.cache
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorAssemblyInfo.cache
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorAssemblyInfo.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.AssemblyInfoInputs.cache
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.AssemblyInfo.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.TagHelpers.input.cache
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.TagHelpers.output.cache
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorCoreGenerate.cache
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Index.g.cshtml.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_NavHeader.g.cshtml.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SubModule.g.cshtml.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorTargetAssemblyInfo.cache
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.RazorTargetAssemblyInfo.cs
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.Views.pdb
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.csproj.CopyComplete
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.dll
+D:\Dot Net Projects\MLS\src\mls-web\MLS.Web\obj\Debug\netcoreapp2.1\MLS.Web.pdb

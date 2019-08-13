@@ -1,0 +1,30 @@
+// Configure bundling and minification for the project.
+// More info at https://go.microsoft.com/fwlink/?LinkId=808241
+[
+  {
+    "outputFileName": "wwwroot/js/maintenance.min.js",
+    "inputFiles": [
+      "wwwroot/js/maintenance.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optinally generate .map file
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/css/icon.min.css",
+    "inputFiles": [
+      "wwwroot/css/icon.css"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optinally generate .map file
+    "sourceMap": false
+  }
+]

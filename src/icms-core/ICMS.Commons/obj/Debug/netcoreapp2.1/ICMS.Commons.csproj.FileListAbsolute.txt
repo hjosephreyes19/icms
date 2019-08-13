@@ -1,0 +1,9 @@
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-core\ICMS.Commons\bin\Debug\netcoreapp2.1\ICMS.Commons.deps.json
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-core\ICMS.Commons\bin\Debug\netcoreapp2.1\ICMS.Commons.dll
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-core\ICMS.Commons\bin\Debug\netcoreapp2.1\ICMS.Commons.pdb
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-core\ICMS.Commons\obj\Debug\netcoreapp2.1\ICMS.Commons.csprojAssemblyReference.cache
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-core\ICMS.Commons\obj\Debug\netcoreapp2.1\ICMS.Commons.csproj.CoreCompileInputs.cache
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-core\ICMS.Commons\obj\Debug\netcoreapp2.1\ICMS.Commons.AssemblyInfoInputs.cache
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-core\ICMS.Commons\obj\Debug\netcoreapp2.1\ICMS.Commons.AssemblyInfo.cs
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-core\ICMS.Commons\obj\Debug\netcoreapp2.1\ICMS.Commons.dll
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-core\ICMS.Commons\obj\Debug\netcoreapp2.1\ICMS.Commons.pdb

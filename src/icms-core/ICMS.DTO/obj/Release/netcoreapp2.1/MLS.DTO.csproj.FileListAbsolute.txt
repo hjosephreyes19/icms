@@ -1,0 +1,14 @@
+F:\Dot Net Project\MLS\src\mls-core\MLS.DTO\bin\Release\netcoreapp2.1\MLS.DTO.deps.json
+F:\Dot Net Project\MLS\src\mls-core\MLS.DTO\bin\Release\netcoreapp2.1\MLS.DTO.dll
+F:\Dot Net Project\MLS\src\mls-core\MLS.DTO\bin\Release\netcoreapp2.1\MLS.DTO.pdb
+F:\Dot Net Project\MLS\src\mls-core\MLS.DTO\bin\Release\netcoreapp2.1\MLS.Commons.dll
+F:\Dot Net Project\MLS\src\mls-core\MLS.DTO\bin\Release\netcoreapp2.1\MLS.Entities.dll
+F:\Dot Net Project\MLS\src\mls-core\MLS.DTO\bin\Release\netcoreapp2.1\MLS.Entities.pdb
+F:\Dot Net Project\MLS\src\mls-core\MLS.DTO\bin\Release\netcoreapp2.1\MLS.Commons.pdb
+F:\Dot Net Project\MLS\src\mls-core\MLS.DTO\obj\Release\netcoreapp2.1\MLS.DTO.csprojAssemblyReference.cache
+F:\Dot Net Project\MLS\src\mls-core\MLS.DTO\obj\Release\netcoreapp2.1\MLS.DTO.csproj.CoreCompileInputs.cache
+F:\Dot Net Project\MLS\src\mls-core\MLS.DTO\obj\Release\netcoreapp2.1\MLS.DTO.AssemblyInfoInputs.cache
+F:\Dot Net Project\MLS\src\mls-core\MLS.DTO\obj\Release\netcoreapp2.1\MLS.DTO.AssemblyInfo.cs
+F:\Dot Net Project\MLS\src\mls-core\MLS.DTO\obj\Release\netcoreapp2.1\MLS.DTO.csproj.CopyComplete
+F:\Dot Net Project\MLS\src\mls-core\MLS.DTO\obj\Release\netcoreapp2.1\MLS.DTO.dll
+F:\Dot Net Project\MLS\src\mls-core\MLS.DTO\obj\Release\netcoreapp2.1\MLS.DTO.pdb

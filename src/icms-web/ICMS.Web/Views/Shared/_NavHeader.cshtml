@@ -1,0 +1,54 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ICMS.Entities.Main;
+@inject SignInManager<User> SignInManager
+
+@if (SignInManager.IsSignedIn(User) && ViewBag.Title != "Login")
+{
+    var submodule = new List<SubModuleViewModel>();
+    string currentModuleName = "";
+    <div class="ui fixed medium inverted menu">
+        <a href="#" class="header item">
+            <img class="logo" src="~/images/logo.png">
+        </a>
+        <div class="item">
+            <strong>MONEY LENDING TOOL</strong>
+        </div>
+        <div class="right menu">
+            @if (ViewBag.modules != null)
+            {
+                @foreach (var module in ViewBag.modules)
+                {
+                    //if the url and current page is same
+                    if (ViewContext.RouteData.Values["controller"].ToString().ToUpper() == @module.name.ToUpper())
+                    {
+                        var moduleName = module.name;
+                        currentModuleName = moduleName;
+
+                        <a href="@module.url" class="active violet item">
+                            @moduleName
+                        </a>
+                        submodule = module.SubModule;
+                    }
+
+                    else
+                    {
+                        var moduleName = module.name;
+                        currentModuleName = moduleName;
+                        <a href="@module.url" class="active blue item">
+                            @moduleName
+                        </a>
+                    }
+                    
+                }
+            }
+            <div class="ui simple dropdown item">
+                <img class="ui avatar image username" src="~/images/user.png">
+                <span class="username">@ViewBag.firstName @ViewBag.lastName</span><i class="dropdown icon"></i>
+                <div class="menu">
+                    <a href="index.html" class="item">Change password</a>
+                    <a href="index.html" class="item">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}

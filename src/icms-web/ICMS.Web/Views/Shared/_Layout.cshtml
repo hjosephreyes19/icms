@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ICMS.Web</title>
+
+    <environment include="Development">
+        @*<link rel="stylesheet" href="~/css/materialize.css" />
+            <link rel="stylesheet" href="~/css/icon.css" />*@
+        @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+
+        <!--SEMANTIC UI CSS-->
+        <link href="~/framework/semantic.css" rel="stylesheet" type="text/css" />
+        <link href="~/components/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="~/components/datatable/datatables.css" rel="stylesheet" type="text/css" />
+    </environment>
+    <environment names="Staging,Production">
+        <!--SEMANTIC UI CSS-->
+        <link href="~/framework/semantic.min.css" rel="stylesheet" type="text/css" />
+        <link href="~/components/css/style.min.css" rel="stylesheet" type="text/css" />
+        <link href="~/components/datatable/datatables.min.css" rel="stylesheet" type="text/css" />
+    </environment>
+</head>
+
+<body class="flex">
+
+    <!--NAV HEADER-->
+    @await Html.PartialAsync("_NavHeader")
+
+    <div class="ui container fluid flex-content main fullwidth">
+        @await Html.PartialAsync("_SubModule")
+        @RenderBody()
+    </div>
+
+    <div class="ui inverted vertical segment">
+        <div class="ui container">
+            <div class="ui stackable inverted divided equal height stackable grid">
+                <div class="three wide middle aligned column">
+                    <img class="ui centered rounded small image" src="~/images/todo.jpg">
+                </div>
+                <div class="seven wide column">
+                    <h5 class="ui inverted header violet">Developed by Haimer</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    @RenderSection("Scripts", required: false)
+
+    <environment include="Development">
+        @*<script src="~/js/materialize.js" asp-append-version="true"></script>
+            <script src="~/lib/jquery/dist/jquery.min.js"></script>
+            <script src="~/js/test-js.js"></script>
+            <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+            <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+            <script src="~/lib/devbridge-autocomplete/dist/jquery.autocomplete.js"></script>
+            <script src="~/lib/jquery-easyPaginate/jquery.easyPaginate.js"></script>
+            <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>*@
+
+        <!--SEMANTIC UI JS-->
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/js/ajax-form.js" asp-append-version="true"></script>
+        <script src="~/framework/semantic.js" asp-append-version="true"></script>
+        <script src="~/js/init.js" asp-append-version="true"></script>
+        <script src="~/lib/pace/pace.js"></script>
+        <script src="~/components/datatable/datatables.js" asp-append-version="true"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+        <script src="~/lib/chart.js/dist/Chart.js"></script>
+        <script src="~/lib/devbridge-autocomplete/dist/jquery.autocomplete.js"></script>
+        <script src="~/lib/jquery-easyPaginate/jquery.easyPaginate.js"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/js/ajax-form.min.js" asp-append-version="true"></script>
+        <script src="~/framework/semantic.min.js" asp-append-version="true"></script>
+        <script src="~/js/init.min.js" asp-append-version="true"></script>
+        <script src="~/components/datatable/datatables.min.js" asp-append-version="true"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+        <script src="~/lib/devbridge-autocomplete/dist/jquery.autocomplete.min.js"></script>
+        <script src="~/lib/jquery-easyPaginate/jquery.easyPaginate.js"></script>
+    </environment>
+</body>
+</html>

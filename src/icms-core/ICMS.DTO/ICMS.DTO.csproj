@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\icms-repository\ICMS.Entities\ICMS.Entities.csproj" />
+    <ProjectReference Include="..\ICMS.Commons\ICMS.Commons.csproj" />
+  </ItemGroup>
+
+</Project>

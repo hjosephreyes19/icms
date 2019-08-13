@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNet.Security.OpenIdConnect.Primitives" Version="1.0.2" />
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.1.3" />
+    <PackageReference Include="microsoft.aspnetcore.app" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
+    <PackageReference Include="OpenIddict.Core" Version="2.0.0-rc1-final" />
+    <PackageReference Include="OpenIddict.EntityFrameworkCore" Version="2.0.0-rc1-final" />
+    <PackageReference Include="Serilog" Version="2.7.1" />
+    <PackageReference Include="Serilog.AspNetCore" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\icms-core\ICMS.Commons\ICMS.Commons.csproj" />
+    <ProjectReference Include="..\..\icms-core\ICMS.DTO\ICMS.DTO.csproj" />
+    <ProjectReference Include="..\..\icms-repository\ICMS.Entities\ICMS.Entities.csproj" />
+    <ProjectReference Include="..\..\icms-repository\ICMS.Repositories\ICMS.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

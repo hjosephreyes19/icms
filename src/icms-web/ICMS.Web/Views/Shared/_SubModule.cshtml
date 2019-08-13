@@ -1,0 +1,55 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ICMS.Entities.Main;
+@inject SignInManager<User> SignInManager
+
+@if (SignInManager.IsSignedIn(User) && ViewBag.Title != "Login")
+{
+    var subModule = new List<SubModuleViewModel>();
+
+    @if (ViewBag.modules != null)
+    {
+        @foreach (var module in ViewBag.modules)
+        {
+            if (ViewContext.RouteData.Values["controller"].ToString().ToUpper() == @module.name.ToUpper())
+            {
+                ViewData["currentModuleName"] = module.name;
+                subModule = module.SubModule;
+
+            }
+        }
+    }
+
+ <!--module body-->
+    <div class="ui one column grid">
+        <div class="row">
+            <div class="column">
+                <div class="ui horizontal divider">
+                    <h3 class="ui violet header">
+                        <i class="wrench icon"></i>
+                        <div class="content">
+                            @ViewBag.currentModuleName
+                        </div>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="ui fluid steps">
+                    @if (subModule.Count() > 0)
+                    {
+                        foreach (var sub in subModule)
+                        {
+                            <a href="@sub.url" class="step">
+                                <div class="content">
+                                    <div class="title">
+                                        @sub.display
+                                    </div>
+                                </div>
+                            </a>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+}

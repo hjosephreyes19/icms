@@ -1,0 +1,14 @@
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\ICMS.Test\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\ICMS.Test\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\ICMS.Test\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\ICMS.Test\bin\Debug\netcoreapp2.2\ICMS.Test.deps.json
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\ICMS.Test\bin\Debug\netcoreapp2.2\ICMS.Test.runtimeconfig.json
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\ICMS.Test\bin\Debug\netcoreapp2.2\ICMS.Test.runtimeconfig.dev.json
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\ICMS.Test\bin\Debug\netcoreapp2.2\ICMS.Test.dll
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\ICMS.Test\bin\Debug\netcoreapp2.2\ICMS.Test.pdb
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\ICMS.Test\obj\Debug\netcoreapp2.2\ICMS.Test.csprojAssemblyReference.cache
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\ICMS.Test\obj\Debug\netcoreapp2.2\ICMS.Test.csproj.CoreCompileInputs.cache
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\ICMS.Test\obj\Debug\netcoreapp2.2\ICMS.Test.AssemblyInfoInputs.cache
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\ICMS.Test\obj\Debug\netcoreapp2.2\ICMS.Test.AssemblyInfo.cs
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\ICMS.Test\obj\Debug\netcoreapp2.2\ICMS.Test.dll
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\ICMS.Test\obj\Debug\netcoreapp2.2\ICMS.Test.pdb

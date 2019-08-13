@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Maintenance",
+    "dispaly": "Maintenance",
+    "description": "",
+    "isenabled": true,
+    "url": "/maintenance/user",
+    "order": 5,
+    "roles": "ADMINISTRATOR",
+    "submodule": [
+      {
+        "name": "User",
+        "display": "User",
+        "description": "",
+        "isenabled": true,
+        "url": "/maintenance/user",
+        "order": 1,
+        "roles": "ADMINISTRATOR"
+      },
+      {
+        "name": "Department",
+        "display": "Department",
+        "description": "",
+        "isenabled": true,
+        "url": "/maintenance/department",
+        "order": 2,
+        "roles": "ADMINISTRATOR"
+      },
+      {
+        "name": "Field",
+        "display": "Field",
+        "description": "",
+        "isenabled": true,
+        "url": "/maintenance/field",
+        "order": 3,
+        "roles": "ADMINISTRATOR"
+      }
+    ]
+  }
+]

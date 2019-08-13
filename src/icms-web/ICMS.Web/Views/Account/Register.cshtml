@@ -1,0 +1,62 @@
+﻿
+
+@{
+    ViewData["Title"] = "Logins";
+}
+
+@model AccountRegisterViewModel
+
+<main>
+    <div class="container">
+        <div class="section">
+            <div class="row eight-p">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-image card-noimg">
+                            <img src="~/images/title-bg.png">
+                            <span class="card-title">@ViewBag.Title</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="row">
+                                <form id="f_register" class="col s12" asp-controller="Maintenance" asp-action="AddUser" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" role="form" autocomplete="off" novalidate="novalidate">
+                                    <div class="row">
+                                        <div class="input-field col s4">
+                                            <input asp-for="firstName" type="text" class="validate" required />
+                                            <label for="firstName">First Name <span style="color:red">*</span></label>
+                                        </div>
+                                        <div class="input-field col s4">
+                                            <input asp-for="lastName" type="text" class="validate" required />
+                                            <label for="lastName">Last Name <span style="color:red">*</span></label>
+                                        </div>
+                                        <div class="input-field col s4">
+                                            <input asp-for="email" type="email" class="validate" required />
+                                            <label for="email">Email <span style="color:red">*</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s4">
+                                            <input asp-for="userName" type="text" class="validate" required />
+                                            <label for="userName">User Name <span style="color:red">*</span></label>
+                                        </div>
+                                        <div class="input-field col s4">
+                                            <input asp-for="password" type="password" class="validate" required />
+                                            <label for="password">Password <span style="color:red">*</span></label>
+                                        </div>
+                                        <div class="input-field col s4">
+                                            <input asp-for="confirmPassword" type="password" class="validate" required />
+                                            <label for="confirmPassword">Confirm Password <span style="color:red">*</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="card-action right-align">
+                                        <a asp-controller="Maintenance" asp-action="User" class="waves-effect waves-light btn red lighten-1">Cancel</a>
+                                        <button type="submit" form="f_register" class="waves-effect waves-light btn blue">Register</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

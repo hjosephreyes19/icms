@@ -1,0 +1,643 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OpenIddict.EntityFrameworkCore</name>
+    </assembly>
+    <members>
+        <member name="T:OpenIddict.EntityFrameworkCore.OpenIddictCustomizer`5">
+            <summary>
+            Represents a model customizer able to register the entity sets
+            required by the OpenIddict stack in an Entity Framework context.
+            </summary>
+        </member>
+        <member name="T:OpenIddict.EntityFrameworkCore.OpenIddictApplicationStore`1">
+            <summary>
+            Provides methods allowing to manage the applications stored in a database.
+            Note: this class can only be used with the default OpenIddict entities.
+            </summary>
+            <typeparam name="TContext">The type of the Entity Framework database context.</typeparam>
+        </member>
+        <member name="T:OpenIddict.EntityFrameworkCore.OpenIddictApplicationStore`2">
+            <summary>
+            Provides methods allowing to manage the applications stored in a database.
+            Note: this class can only be used with the default OpenIddict entities.
+            </summary>
+            <typeparam name="TContext">The type of the Entity Framework database context.</typeparam>
+            <typeparam name="TKey">The type of the entity primary keys.</typeparam>
+        </member>
+        <member name="T:OpenIddict.EntityFrameworkCore.OpenIddictApplicationStore`5">
+            <summary>
+            Provides methods allowing to manage the applications stored in a database.
+            Note: this class can only be used with the default OpenIddict entities.
+            </summary>
+            <typeparam name="TApplication">The type of the Application entity.</typeparam>
+            <typeparam name="TAuthorization">The type of the Authorization entity.</typeparam>
+            <typeparam name="TToken">The type of the Token entity.</typeparam>
+            <typeparam name="TContext">The type of the Entity Framework database context.</typeparam>
+            <typeparam name="TKey">The type of the entity primary keys.</typeparam>
+        </member>
+        <member name="P:OpenIddict.EntityFrameworkCore.OpenIddictApplicationStore`5.Context">
+            <summary>
+            Gets the database context associated with the current store.
+            </summary>
+        </member>
+        <member name="P:OpenIddict.EntityFrameworkCore.OpenIddictApplicationStore`5.Applications">
+            <summary>
+            Gets the database set corresponding to the <typeparamref name="TApplication"/> entity.
+            </summary>
+        </member>
+        <member name="P:OpenIddict.EntityFrameworkCore.OpenIddictApplicationStore`5.Authorizations">
+            <summary>
+            Gets the database set corresponding to the <typeparamref name="TAuthorization"/> entity.
+            </summary>
+        </member>
+        <member name="P:OpenIddict.EntityFrameworkCore.OpenIddictApplicationStore`5.Tokens">
+            <summary>
+            Gets the database set corresponding to the <typeparamref name="TToken"/> entity.
+            </summary>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictApplicationStore`5.CountAsync``1(System.Func{System.Linq.IQueryable{`0},System.Linq.IQueryable{``0}},System.Threading.CancellationToken)">
+            <summary>
+            Determines the number of applications that match the specified query.
+            </summary>
+            <typeparam name="TResult">The result type.</typeparam>
+            <param name="query">The query to execute.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns the number of applications that match the specified query.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictApplicationStore`5.CreateAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new application.
+            </summary>
+            <param name="application">The application to create.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation, whose result returns the application.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictApplicationStore`5.CreateAsync(OpenIddict.Core.OpenIddictApplicationDescriptor,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new application.
+            </summary>
+            <param name="descriptor">The application descriptor.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation, whose result returns the application.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictApplicationStore`5.DeleteAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+            Removes an existing application.
+            </summary>
+            <param name="application">The application to delete.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictApplicationStore`5.FindByIdAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Retrieves an application using its unique identifier.
+            </summary>
+            <param name="identifier">The unique identifier associated with the application.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns the client application corresponding to the identifier.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictApplicationStore`5.GetAsync``1(System.Func{System.Linq.IQueryable{`0},System.Linq.IQueryable{``0}},System.Threading.CancellationToken)">
+            <summary>
+            Executes the specified query.
+            </summary>
+            <typeparam name="TResult">The result type.</typeparam>
+            <param name="query">The query to execute.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns the single element returned when executing the specified query.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictApplicationStore`5.ListAsync``1(System.Func{System.Linq.IQueryable{`0},System.Linq.IQueryable{``0}},System.Threading.CancellationToken)">
+            <summary>
+            Executes the specified query.
+            </summary>
+            <typeparam name="TResult">The result type.</typeparam>
+            <param name="query">The query to execute.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns all the elements returned when executing the specified query.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictApplicationStore`5.UpdateAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+            Updates an existing application.
+            </summary>
+            <param name="application">The application to update.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation.
+            </returns>
+        </member>
+        <member name="T:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`1">
+            <summary>
+            Provides methods allowing to manage the authorizations stored in a database.
+            Note: this class can only be used with the default OpenIddict entities.
+            </summary>
+            <typeparam name="TContext">The type of the Entity Framework database context.</typeparam>
+        </member>
+        <member name="T:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`2">
+            <summary>
+            Provides methods allowing to manage the authorizations stored in a database.
+            Note: this class can only be used with the default OpenIddict entities.
+            </summary>
+            <typeparam name="TContext">The type of the Entity Framework database context.</typeparam>
+            <typeparam name="TKey">The type of the entity primary keys.</typeparam>
+        </member>
+        <member name="T:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`5">
+            <summary>
+            Provides methods allowing to manage the authorizations stored in a database.
+            Note: this class can only be used with the default OpenIddict entities.
+            </summary>
+            <typeparam name="TAuthorization">The type of the Authorization entity.</typeparam>
+            <typeparam name="TApplication">The type of the Application entity.</typeparam>
+            <typeparam name="TToken">The type of the Token entity.</typeparam>
+            <typeparam name="TContext">The type of the Entity Framework database context.</typeparam>
+            <typeparam name="TKey">The type of the entity primary keys.</typeparam>
+        </member>
+        <member name="P:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`5.Context">
+            <summary>
+            Gets the database context associated with the current store.
+            </summary>
+        </member>
+        <member name="P:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`5.Applications">
+            <summary>
+            Gets the database set corresponding to the <typeparamref name="TApplication"/> entity.
+            </summary>
+        </member>
+        <member name="P:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`5.Authorizations">
+            <summary>
+            Gets the database set corresponding to the <typeparamref name="TAuthorization"/> entity.
+            </summary>
+        </member>
+        <member name="P:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`5.Tokens">
+            <summary>
+            Gets the database set corresponding to the <typeparamref name="TToken"/> entity.
+            </summary>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`5.CountAsync``1(System.Func{System.Linq.IQueryable{`0},System.Linq.IQueryable{``0}},System.Threading.CancellationToken)">
+            <summary>
+            Determines the number of authorizations that match the specified query.
+            </summary>
+            <typeparam name="TResult">The result type.</typeparam>
+            <param name="query">The query to execute.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns the number of authorizations that match the specified query.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`5.CreateAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new authorization.
+            </summary>
+            <param name="authorization">The authorization to create.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation, whose result returns the authorization.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`5.CreateAsync(OpenIddict.Core.OpenIddictAuthorizationDescriptor,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new authorization.
+            </summary>
+            <param name="descriptor">The authorization descriptor.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation, whose result returns the authorization.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`5.DeleteAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+            Removes an existing authorization.
+            </summary>
+            <param name="authorization">The authorization to delete.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`5.FindByIdAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Retrieves an authorization using its unique identifier.
+            </summary>
+            <param name="identifier">The unique identifier associated with the authorization.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns the authorization corresponding to the identifier.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`5.GetApplicationIdAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+            Retrieves the optional application identifier associated with an authorization.
+            </summary>
+            <param name="authorization">The authorization.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns the application identifier associated with the authorization.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`5.GetAsync``1(System.Func{System.Linq.IQueryable{`0},System.Linq.IQueryable{``0}},System.Threading.CancellationToken)">
+            <summary>
+            Executes the specified query.
+            </summary>
+            <typeparam name="TResult">The result type.</typeparam>
+            <param name="query">The query to execute.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns the single element returned when executing the specified query.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`5.ListAsync``1(System.Func{System.Linq.IQueryable{`0},System.Linq.IQueryable{``0}},System.Threading.CancellationToken)">
+            <summary>
+            Executes the specified query.
+            </summary>
+            <typeparam name="TResult">The result type.</typeparam>
+            <param name="query">The query to execute.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns all the elements returned when executing the specified query.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`5.SetApplicationIdAsync(`0,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Sets the application identifier associated with an authorization.
+            </summary>
+            <param name="authorization">The authorization.</param>
+            <param name="identifier">The unique identifier associated with the client application.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictAuthorizationStore`5.UpdateAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+            Updates an existing authorization.
+            </summary>
+            <param name="authorization">The authorization to update.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation.
+            </returns>
+        </member>
+        <member name="T:OpenIddict.EntityFrameworkCore.OpenIddictScopeStore`1">
+            <summary>
+            Provides methods allowing to manage the scopes stored in a database.
+            Note: this class can only be used with the default OpenIddict entities.
+            </summary>
+            <typeparam name="TContext">The type of the Entity Framework database context.</typeparam>
+        </member>
+        <member name="T:OpenIddict.EntityFrameworkCore.OpenIddictScopeStore`2">
+            <summary>
+            Provides methods allowing to manage the scopes stored in a database.
+            Note: this class can only be used with the default OpenIddict entities.
+            </summary>
+            <typeparam name="TContext">The type of the Entity Framework database context.</typeparam>
+            <typeparam name="TKey">The type of the entity primary keys.</typeparam>
+        </member>
+        <member name="T:OpenIddict.EntityFrameworkCore.OpenIddictScopeStore`3">
+            <summary>
+            Provides methods allowing to manage the scopes stored in a database.
+            Note: this class can only be used with the default OpenIddict entities.
+            </summary>
+            <typeparam name="TScope">The type of the Scope entity.</typeparam>
+            <typeparam name="TContext">The type of the Entity Framework database context.</typeparam>
+            <typeparam name="TKey">The type of the entity primary keys.</typeparam>
+        </member>
+        <member name="P:OpenIddict.EntityFrameworkCore.OpenIddictScopeStore`3.Context">
+            <summary>
+            Gets the database context associated with the current store.
+            </summary>
+        </member>
+        <member name="P:OpenIddict.EntityFrameworkCore.OpenIddictScopeStore`3.Scopes">
+            <summary>
+            Gets the database set corresponding to the <typeparamref name="TScope"/> entity.
+            </summary>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictScopeStore`3.CountAsync``1(System.Func{System.Linq.IQueryable{`0},System.Linq.IQueryable{``0}},System.Threading.CancellationToken)">
+            <summary>
+            Determines the number of scopes that match the specified query.
+            </summary>
+            <typeparam name="TResult">The result type.</typeparam>
+            <param name="query">The query to execute.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns the number of scopes that match the specified query.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictScopeStore`3.CreateAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new scope.
+            </summary>
+            <param name="scope">The scope to create.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation, whose result returns the scope.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictScopeStore`3.CreateAsync(OpenIddict.Core.OpenIddictScopeDescriptor,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new scope.
+            </summary>
+            <param name="descriptor">The scope descriptor.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation, whose result returns the scope.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictScopeStore`3.DeleteAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+            Removes an existing scope.
+            </summary>
+            <param name="scope">The scope to delete.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictScopeStore`3.GetAsync``1(System.Func{System.Linq.IQueryable{`0},System.Linq.IQueryable{``0}},System.Threading.CancellationToken)">
+            <summary>
+            Executes the specified query.
+            </summary>
+            <typeparam name="TResult">The result type.</typeparam>
+            <param name="query">The query to execute.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns the single element returned when executing the specified query.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictScopeStore`3.ListAsync``1(System.Func{System.Linq.IQueryable{`0},System.Linq.IQueryable{``0}},System.Threading.CancellationToken)">
+            <summary>
+            Executes the specified query.
+            </summary>
+            <typeparam name="TResult">The result type.</typeparam>
+            <param name="query">The query to execute.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns all the elements returned when executing the specified query.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictScopeStore`3.UpdateAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+            Updates an existing scope.
+            </summary>
+            <param name="scope">The scope to update.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation.
+            </returns>
+        </member>
+        <member name="T:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`1">
+            <summary>
+            Provides methods allowing to manage the tokens stored in a database.
+            Note: this class can only be used with the default OpenIddict entities.
+            </summary>
+            <typeparam name="TContext">The type of the Entity Framework database context.</typeparam>
+        </member>
+        <member name="T:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`2">
+            <summary>
+            Provides methods allowing to manage the tokens stored in a database.
+            Note: this class can only be used with the default OpenIddict entities.
+            </summary>
+            <typeparam name="TContext">The type of the Entity Framework database context.</typeparam>
+            <typeparam name="TKey">The type of the entity primary keys.</typeparam>
+        </member>
+        <member name="T:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5">
+            <summary>
+            Provides methods allowing to manage the tokens stored in a database.
+            Note: this class can only be used with the default OpenIddict entities.
+            </summary>
+            <typeparam name="TToken">The type of the Token entity.</typeparam>
+            <typeparam name="TApplication">The type of the Application entity.</typeparam>
+            <typeparam name="TAuthorization">The type of the Authorization entity.</typeparam>
+            <typeparam name="TContext">The type of the Entity Framework database context.</typeparam>
+            <typeparam name="TKey">The type of the entity primary keys.</typeparam>
+        </member>
+        <member name="P:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5.Context">
+            <summary>
+            Gets the database context associated with the current store.
+            </summary>
+        </member>
+        <member name="P:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5.Applications">
+            <summary>
+            Gets the database set corresponding to the <typeparamref name="TApplication"/> entity.
+            </summary>
+        </member>
+        <member name="P:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5.Authorizations">
+            <summary>
+            Gets the database set corresponding to the <typeparamref name="TAuthorization"/> entity.
+            </summary>
+        </member>
+        <member name="P:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5.Tokens">
+            <summary>
+            Gets the database set corresponding to the <typeparamref name="TToken"/> entity.
+            </summary>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5.CountAsync``1(System.Func{System.Linq.IQueryable{`0},System.Linq.IQueryable{``0}},System.Threading.CancellationToken)">
+            <summary>
+            Determines the number of tokens that match the specified query.
+            </summary>
+            <typeparam name="TResult">The result type.</typeparam>
+            <param name="query">The query to execute.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns the number of tokens that match the specified query.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5.CreateAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new token.
+            </summary>
+            <param name="token">The token to create.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation, whose result returns the token.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5.CreateAsync(OpenIddict.Core.OpenIddictTokenDescriptor,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new token.
+            </summary>
+            <param name="descriptor">The token descriptor.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation, whose result returns the token.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5.DeleteAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+            Removes a token.
+            </summary>
+            <param name="token">The token to delete.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation.</returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5.FindByIdAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Retrieves an token using its unique identifier.
+            </summary>
+            <param name="identifier">The unique identifier associated with the token.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns the token corresponding to the unique identifier.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5.GetApplicationIdAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+            Retrieves the optional application identifier associated with a token.
+            </summary>
+            <param name="token">The token.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns the application identifier associated with the token.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5.GetAsync``1(System.Func{System.Linq.IQueryable{`0},System.Linq.IQueryable{``0}},System.Threading.CancellationToken)">
+            <summary>
+            Executes the specified query.
+            </summary>
+            <typeparam name="TResult">The result type.</typeparam>
+            <param name="query">The query to execute.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns the single element returned when executing the specified query.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5.GetAuthorizationIdAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+            Retrieves the optional authorization identifier associated with a token.
+            </summary>
+            <param name="token">The token.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns the authorization identifier associated with the token.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5.ListAsync``1(System.Func{System.Linq.IQueryable{`0},System.Linq.IQueryable{``0}},System.Threading.CancellationToken)">
+            <summary>
+            Executes the specified query.
+            </summary>
+            <typeparam name="TResult">The result type.</typeparam>
+            <param name="query">The query to execute.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation,
+            whose result returns all the elements returned when executing the specified query.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5.SetApplicationIdAsync(`0,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Sets the application identifier associated with a token.
+            </summary>
+            <param name="token">The token.</param>
+            <param name="identifier">The unique identifier associated with the client application.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5.SetAuthorizationIdAsync(`0,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Sets the authorization identifier associated with a token.
+            </summary>
+            <param name="token">The token.</param>
+            <param name="identifier">The unique identifier associated with the authorization.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation.
+            </returns>
+        </member>
+        <member name="M:OpenIddict.EntityFrameworkCore.OpenIddictTokenStore`5.UpdateAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+            Updates an existing token.
+            </summary>
+            <param name="token">The token to update.</param>
+            <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken"/> that can be used to abort the operation.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that can be used to monitor the asynchronous operation.
+            </returns>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.OpenIddictExtensions.AddEntityFrameworkCoreStores``1(Microsoft.Extensions.DependencyInjection.OpenIddictBuilder)">
+            <summary>
+            Registers the Entity Framework Core stores. Note: when using the Entity Framework Core stores,
+            the entities MUST be derived from the models contained in the OpenIddict.Models package.
+            </summary>
+            <param name="builder">The services builder used by OpenIddict to register new services.</param>
+            <returns>The <see cref="T:Microsoft.Extensions.DependencyInjection.OpenIddictBuilder"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.OpenIddictExtensions.UseOpenIddict(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+            Registers the OpenIddict entity sets in the Entity Framework context
+            using the default OpenIddict models and the default key type (string).
+            </summary>
+            <param name="builder">The builder used to configure the Entity Framework context.</param>
+            <returns>The Entity Framework context builder.</returns>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.OpenIddictExtensions.UseOpenIddict``1(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+            Registers the OpenIddict entity sets in the Entity Framework context
+            using the default OpenIddict models and the specified key type.
+            </summary>
+            <param name="builder">The builder used to configure the Entity Framework context.</param>
+            <returns>The Entity Framework context builder.</returns>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.OpenIddictExtensions.UseOpenIddict``5(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+            Registers the OpenIddict entity sets in the Entity Framework context
+            using the specified entities and the specified key type.
+            </summary>
+            <param name="builder">The builder used to configure the Entity Framework context.</param>
+            <returns>The Entity Framework context builder.</returns>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.OpenIddictExtensions.UseOpenIddict(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Registers the OpenIddict entity sets in the Entity Framework context
+            using the default OpenIddict models and the default key type (string).
+            </summary>
+            <param name="builder">The builder used to configure the Entity Framework context.</param>
+            <returns>The Entity Framework context builder.</returns>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.OpenIddictExtensions.UseOpenIddict``1(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Registers the OpenIddict entity sets in the Entity Framework context
+            using the default OpenIddict models and the specified key type.
+            </summary>
+            <param name="builder">The builder used to configure the Entity Framework context.</param>
+            <returns>The Entity Framework context builder.</returns>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.OpenIddictExtensions.UseOpenIddict``5(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Registers the OpenIddict entity sets in the Entity Framework context
+            using the specified entities and the specified key type.
+            </summary>
+            <param name="builder">The builder used to configure the Entity Framework context.</param>
+            <returns>The Entity Framework context builder.</returns>
+        </member>
+    </members>
+</doc>

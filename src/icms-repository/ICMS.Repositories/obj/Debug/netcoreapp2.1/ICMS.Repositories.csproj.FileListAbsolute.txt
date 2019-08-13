@@ -1,0 +1,3 @@
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-repository\ICMS.Repositories\obj\Debug\netcoreapp2.1\ICMS.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-repository\ICMS.Repositories\obj\Debug\netcoreapp2.1\ICMS.Repositories.AssemblyInfoInputs.cache
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-repository\ICMS.Repositories\obj\Debug\netcoreapp2.1\ICMS.Repositories.AssemblyInfo.cs

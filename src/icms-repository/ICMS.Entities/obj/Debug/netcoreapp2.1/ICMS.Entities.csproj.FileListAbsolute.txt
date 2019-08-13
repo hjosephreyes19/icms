@@ -1,0 +1,4 @@
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-repository\ICMS.Entities\obj\Debug\netcoreapp2.1\ICMS.Entities.csprojAssemblyReference.cache
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-repository\ICMS.Entities\obj\Debug\netcoreapp2.1\ICMS.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-repository\ICMS.Entities\obj\Debug\netcoreapp2.1\ICMS.Entities.AssemblyInfoInputs.cache
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-repository\ICMS.Entities\obj\Debug\netcoreapp2.1\ICMS.Entities.AssemblyInfo.cs

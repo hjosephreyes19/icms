@@ -1,0 +1,6 @@
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-web\ICMS.Web\obj\Debug\netcoreapp2.1\ICMS.Web.csprojAssemblyReference.cache
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-web\ICMS.Web\obj\Debug\netcoreapp2.1\ICMS.Web.csproj.CoreCompileInputs.cache
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-web\ICMS.Web\obj\Debug\netcoreapp2.1\ICMS.Web.RazorAssemblyInfo.cache
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-web\ICMS.Web\obj\Debug\netcoreapp2.1\ICMS.Web.RazorAssemblyInfo.cs
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-web\ICMS.Web\obj\Debug\netcoreapp2.1\ICMS.Web.AssemblyInfoInputs.cache
+C:\Users\Beehive\Documents\Haime\Projects\ICMS\src\icms-web\ICMS.Web\obj\Debug\netcoreapp2.1\ICMS.Web.AssemblyInfo.cs
